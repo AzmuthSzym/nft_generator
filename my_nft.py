@@ -6,7 +6,7 @@ import os
 
 # Each image is made up a series of traits
 # The weightings for each trait drive the rarity and add up to 100%
-# IPFS: https://gateway.pinata.cloud/ipfs/QmfHXRWSkUrHJgMNGZCwUUhSu5vMKuoh45vAuNQsur4LEa
+# IPFS: https://gateway.pinata.cloud/ipfs/QmeZc17JKsG9sEBmsj6S727AtwJjVkFQumqcuZ2cCixfyz
 
 body = ["Pink", "White", "Blue"]
 body_weights = [30, 60, 10]

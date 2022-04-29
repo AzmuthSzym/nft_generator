@@ -1,0 +1,31 @@
+{
+    "image": "https://gateway.pinata.cloud/ipfs/QmeZc17JKsG9sEBmsj6S727AtwJjVkFQumqcuZ2cCixfyz/0.png",
+    "tokenId": 0,
+    "name": "NFT_CREATOR 0",
+    "attributes": [
+        {
+            "trait_type": "Body",
+            "value": "White"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Black"
+        },
+        {
+            "trait_type": "Horn",
+            "value": "Multi"
+        },
+        {
+            "trait_type": "Hair",
+            "value": "White Hair"
+        },
+        {
+            "trait_type": "Tail",
+            "value": "White"
+        },
+        {
+            "trait_type": "Wings",
+            "value": "Pink"
+        }
+    ]
+}
