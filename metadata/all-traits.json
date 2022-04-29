@@ -1,0 +1,92 @@
+[
+    {
+        "Body": "White",
+        "Eyes": "Black",
+        "Horn": "Multi",
+        "Hair": "White Hair",
+        "Tail": "White",
+        "Wings": "Pink",
+        "tokenId": 0
+    },
+    {
+        "Body": "White",
+        "Eyes": "Black",
+        "Horn": "White",
+        "Hair": "Pink Hair",
+        "Tail": "Pink",
+        "Wings": "Pink",
+        "tokenId": 1
+    },
+    {
+        "Body": "Pink",
+        "Eyes": "Black",
+        "Horn": "Pink",
+        "Hair": "White Hair",
+        "Tail": "Pink",
+        "Wings": "Pink",
+        "tokenId": 2
+    },
+    {
+        "Body": "White",
+        "Eyes": "Black",
+        "Horn": "White",
+        "Hair": "Blue Hair",
+        "Tail": "Gold",
+        "Wings": "Gold",
+        "tokenId": 3
+    },
+    {
+        "Body": "White",
+        "Eyes": "Orange",
+        "Horn": "White",
+        "Hair": "Blue Hair",
+        "Tail": "Multicolor",
+        "Wings": "Pink",
+        "tokenId": 4
+    },
+    {
+        "Body": "White",
+        "Eyes": "Red",
+        "Horn": "Orange",
+        "Hair": "Blue Hair",
+        "Tail": "Pink",
+        "Wings": "Pink",
+        "tokenId": 5
+    },
+    {
+        "Body": "Pink",
+        "Eyes": "Black",
+        "Horn": "White",
+        "Hair": "White Hair",
+        "Tail": "Gold",
+        "Wings": "Multicolor",
+        "tokenId": 6
+    },
+    {
+        "Body": "Pink",
+        "Eyes": "Orange",
+        "Horn": "White",
+        "Hair": "Blue Hair",
+        "Tail": "Gold",
+        "Wings": "Multicolor",
+        "tokenId": 7
+    },
+    {
+        "Body": "Pink",
+        "Eyes": "Orange",
+        "Horn": "Pink",
+        "Hair": "White Hair",
+        "Tail": "Gold",
+        "Wings": "Gold",
+        "tokenId": 8
+    },
+    {
+        "Body": "White",
+        "Eyes": "Orange",
+        "Horn": "White",
+        "Hair": "White Hair",
+        "Tail": "Pink",
+        "Wings": "Blue",
+        "tokenId": 9
+    }
+]

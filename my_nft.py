@@ -6,6 +6,7 @@ import os
 
 # Each image is made up a series of traits
 # The weightings for each trait drive the rarity and add up to 100%
+# IPFS: https://gateway.pinata.cloud/ipfs/QmfHXRWSkUrHJgMNGZCwUUhSu5vMKuoh45vAuNQsur4LEa
 
 body = ["Pink", "White", "Blue"]
 body_weights = [30, 60, 10]
@@ -77,7 +78,7 @@ wings_files = {
 
 # Generate Traits
 
-TOTAL_IMAGES = 50  # Number of random unique images we want to generate
+TOTAL_IMAGES = 10  # Number of random unique images we want to generate
 
 all_images = []
 
@@ -118,7 +119,7 @@ print("Are all images unique?", all_images_unique(all_images))
 i = 0
 for item in all_images:
     item["tokenId"] = i
-     i = i + 1
+    i = i + 1
 
 print(all_images)
 
@@ -165,7 +166,7 @@ print(wings_count)
 
 # Generate Images
 
-os.mkdir(f'./images2')
+os.mkdir(f'./images')
 
 for item in all_images:
     im1 = Image.open(f'./unicorn_parts/body/{body_files[item["Body"]]}.png').convert('RGBA')
@@ -186,3 +187,9 @@ for item in all_images:
     rgb_im = com5.convert('RGB')
     file_name = str(item["tokenId"]) + ".png"
     rgb_im.save("./images/" + file_name)
+
+os.mkdir(f'./metadata')
+METADATA_FILE_NAME = './metadata/all-traits.json'
+with open(METADATA_FILE_NAME, 'w') as outfile:
+    json.dump(all_images, outfile, indent=4)
+
